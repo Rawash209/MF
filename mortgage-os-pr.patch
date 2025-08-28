@@ -1,0 +1,45 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Upgrade <upgrade@mortgagefeeders.ae>
+Date: Wed, 28 Aug 2025 12:00:00 +0400
+Subject: [PATCH] Upgrade portal scaffold: React + Firebase + CI/CD
+
+---
+new file: package.json
+new file: README.md
+new file: vite.config.ts
+new file: tailwind.config.cjs
+new file: index.html
+new file: firestore.rules
+new file: firebase.json
+new file: .firebaserc
+new file: firestore.indexes.json
+new file: .gitignore
+new file: .env.example
+new file: src/main.tsx
+new file: src/index.css
+new file: src/firebase.ts
+new file: src/App.tsx
+new file: src/components/Navbar.tsx
+new file: src/components/ClientCard.tsx
+new file: src/components/KanbanBoard.tsx
+new file: src/routes/Dashboard.tsx
+new file: src/routes/Clients.tsx
+new file: src/routes/ClientPage.tsx
+new file: src/routes/KanbanPipeline.tsx
+new file: src/routes/Courses.tsx
+new file: src/routes/BankProducts.tsx
+new file: src/routes/Reports.tsx
+new file: functions/package.json
+new file: functions/src/index.ts
+new file: .github/workflows/firebase-deploy.yml
+
+Patch includes:
+- Frontend scaffold
+- Firebase config
+- Functions scaffold
+- CI/CD workflow
+- Firestore rules
+- README & env.example
+
+-- 
+2.0.0
